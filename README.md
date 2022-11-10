@@ -37,3 +37,9 @@ return [
     ],
 ];
 ```
+
+## Configure Authentication
+- Insert a new row into `oauth_clients` table
+    - `client_id` is the username for your client
+    - `client_secret` is the hashed password for your client
+        - You can use `php .\vendor\laminas-api-tools\api-tools-oauth2\bin\bcrypt.php yourPassword` to generate a bcrypt hash
