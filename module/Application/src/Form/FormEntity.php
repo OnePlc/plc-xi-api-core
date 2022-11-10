@@ -5,8 +5,8 @@ namespace Application\Form;
 
 class FormEntity {
   private int $id;
-  private string $key;
-  private string $title;
+  public string $form_key;
+  public string $form_title;
 
   public function getId(): int
   {
@@ -15,11 +15,11 @@ class FormEntity {
 
   public function getKey(): string
   {
-    return $this->key;
+    return $this->form_key;
   }
 
   public function getTitle(): string
   {
-    return $this->title;
+    return $this->form_title;
   }
 }

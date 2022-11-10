@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace Application\Form;
 
+use Laminas\Db\ResultSet\HydratingResultSet;
+
 class FormService
 {
   public function __construct(
@@ -12,7 +14,7 @@ class FormService
 
   }
 
-  public function getForm(string $formKey): FormEntity
+  public function getForm(string $formKey): ?FormEntity
   {
     return $this->formTable->getForm($formKey);
   }
