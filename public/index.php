@@ -56,5 +56,8 @@ if (file_exists('config/development.config.php')) {
     );
 }
 
+header("Access-Control-Allow-Headers: *");
+header("Access-Control-Allow-Origin: http://localhost:3000");
+
 // Run the application!
 Application::init($appConfig)->run();

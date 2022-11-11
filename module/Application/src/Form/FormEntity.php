@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace Application\Form;
 
 class FormEntity {
-  private int $id;
+  public int $id;
   public string $form_key;
   public string $form_title;
 
