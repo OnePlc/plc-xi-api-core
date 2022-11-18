@@ -10,6 +10,7 @@ class FormService
   public function __construct(
       private readonly FormTableGateway $formTable,
       private readonly FormListTableGateway $listTable,
+      private readonly FormFieldTableGateway $fieldTable,
   )
   {
 
@@ -24,5 +25,11 @@ class FormService
   {
       $form = $this->getForm($formKey);
       return $form ? $this->listTable->getListFields($form, $formatForApi) : [];
+  }
+
+  public function getFieldsByFormKey(string $formKey, $formatForApi = false): array
+  {
+      $form = $this->getForm($formKey);
+      return $form ? $this->fieldTable->getFormFields($form, $formatForApi) : [];
   }
 }
