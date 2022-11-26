@@ -74,12 +74,6 @@
             "src/ApiTools/constants.php"
         ]
     },
-    "repositories": [
-        {
-            "url": "C:\\Users\\Praesidiarius\\PhpstormProjects\\plc-xi-api-article-git",
-            "type": "path"
-        }
-    ],
     "scripts": {
         "cs-check": "phpcs",
         "cs-fix": "phpcbf",
