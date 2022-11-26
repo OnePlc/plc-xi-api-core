@@ -1,22 +1,20 @@
 {
     "name": "plc-xi/core",
-    "description": "Skeleton Application for Laminas API Tools",
+    "description": "Core Module for PLC XI Api Server",
     "type": "project",
     "license": "BSD-3-Clause",
     "keywords": [
         "laminas",
         "api-tools",
         "api",
-        "framework"
+        "framework",
+        "plc-xi"
     ],
-    "homepage": "https://api-tools.getlaminas.org",
+    "homepage": "https://xi.1plc.ch",
     "support": {
-        "docs": "https://api-tools.getlaminas.org/documentation",
-        "issues": "https://github.com/laminas-api-tools/api-tools-skeleton/issues",
-        "source": "https://github.com/laminas-api-tools/api-tools-skeleton",
-        "rss": "https://github.com/laminas-api-tools/api-tools-skeleton/releases.atom",
-        "chat": "https://laminas.dev/chat",
-        "forum": "https://discourse.laminas.dev"
+        "docs": "https://xi.1plc.ch/documentation",
+        "issues": "https://github.com/OnePlc/plc-xi-api-core/issues",
+        "source": "https://github.com/OnePlc/plc-xi-api-core",
     },
     "config": {
         "process-timeout": 5000,
