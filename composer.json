@@ -14,7 +14,7 @@
     "support": {
         "docs": "https://xi.1plc.ch/documentation",
         "issues": "https://github.com/OnePlc/plc-xi-api-core/issues",
-        "source": "https://github.com/OnePlc/plc-xi-api-core",
+        "source": "https://github.com/OnePlc/plc-xi-api-core"
     },
     "config": {
         "process-timeout": 5000,
