@@ -35,7 +35,7 @@
         "laminas-api-tools/api-tools-rest": "^1.6.1",
         "laminas/laminas-component-installer": "^2.1.1",
         "laminas/laminas-development-mode": "^3.2",
-        "laminas/laminas-zendframework-bridge": "^1.0",
+        "laminas/laminas-zendframework-bridge": "^1.0"
     },
     "require-dev": {
         "laminas-api-tools/api-tools-admin": "^2.0.1",
@@ -45,6 +45,7 @@
         "laminas/laminas-composer-autoloading": "^3.1",
         "laminas/laminas-developer-tools": "^2.3",
         "laminas/laminas-test": "^4.0",
+        "phpstan/phpstan": "^1.9",
         "phpunit/phpunit": "^9.5.20",
         "psalm/plugin-phpunit": "^0.16.1",
         "roave/security-advisories": "dev-master",
@@ -73,6 +74,12 @@
             "src/ApiTools/constants.php"
         ]
     },
+    "repositories": [
+        {
+            "url": "C:\\Users\\Praesidiarius\\PhpstormProjects\\plc-xi-api-article-git",
+            "type": "path"
+        }
+    ],
     "scripts": {
         "cs-check": "phpcs",
         "cs-fix": "phpcbf",
