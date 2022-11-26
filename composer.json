@@ -1,5 +1,5 @@
 {
-    "name": "plc/core",
+    "name": "plc-xi/core",
     "description": "Skeleton Application for Laminas API Tools",
     "type": "project",
     "license": "BSD-3-Clause",
